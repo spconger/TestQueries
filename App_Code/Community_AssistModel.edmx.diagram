@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d1669c56bf714e9285d58a9d16fa9922" Name="Diagram1">
+        <EntityTypeShape EntityType="Community_AssistModel.BusinessRule" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Contact" Width="1.5" PointX="6" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.ContactType" Width="1.5" PointX="3.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Donation" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.DonationCheck" Width="1.5" PointX="8.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Employee" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.EmployeePosition" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.GrantRequest" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.GrantReview" Width="1.5" PointX="8.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.GrantReviewComment" Width="1.5" PointX="8.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.GrantType" Width="1.5" PointX="3.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.LoginHistoryTable" Width="1.5" PointX="3" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Person" Width="1.5" PointX="0.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.PersonAddress" Width="1.5" PointX="3" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Position" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Test" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__Contact__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__Contact__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__Contact__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__Contact__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__PersonK__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__PersonK__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__PersonK__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__PersonK__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Donation__Person__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Donation__Person__2CF2ADDF" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Donation__Person__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Donation__Person__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Donat__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Donat__2DE6D218" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Donat__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Donat__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Emplo__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Emplo__2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Emplo__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__DonationC__Emplo__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Employee__Person__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Employee__Person__2FCF1A8A" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Employee__Person__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__Employee__Person__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Emplo__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Emplo__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Emplo__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Emplo__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Emplo__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Emplo__3587F3E0" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Emplo__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Emplo__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Posit__114A936A" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Posit__31B762FC" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Posit__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__EmployeeP__Posit__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Grant__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Grant__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Grant__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Grant__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Perso__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Perso__339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Perso__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Perso__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Grant__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Grant__3493CFA7" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Grant__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Grant__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.Fk_GrantReview" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__LoginHist__Perso__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__LoginHist__Perso__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__LoginHist__Perso__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__LoginHist__Perso__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__PersonAdd__Perso__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__PersonAdd__Perso__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__PersonAdd__Perso__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__PersonAdd__Perso__5DCAEF64" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
